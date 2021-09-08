@@ -43,6 +43,10 @@ boxplot(VitC~Cult,data=veggy)
 ### Numerical Descriptive Results
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
+```{r}
+favstats(VitC~Cult,data=veggy)
+```
+As shown in the plot, the mean value of c39 is 51.5 which is smaller value than c52 which is 64.4. 
 
 ## Inferential Results
 
